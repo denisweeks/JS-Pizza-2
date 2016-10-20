@@ -1,0 +1,94 @@
+@mainColor: #ea3f55;
+@menuColor: #ae1e3c;
+@itemsColor : #a31e3d;
+@text-desidn: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+@import "pizza/pizza-card";
+@import "pizza/my_header";
+@import "pizza/one_order";
+
+#logo{
+  position: relative;
+  left: 0px;
+  position: fixed;
+  top: 0;
+  background: @mainColor;
+  z-index: 99;
+  width: 99px;
+  height: 90px;
+  font-size: 19px;
+  padding: 10px;
+  padding-top: 15px;
+  color: #fff;
+  text-align: center;
+
+}
+.main-page {
+  padding-top: 90px;
+  font-family:  Arial Narrow, Arial, Helvetica;
+  font-size: 16px;
+}
+
+.main-pizzas {
+  padding-right: 360px;
+  padding-left: 20px;
+  max-width: 1354px;
+  margin: auto;
+}
+.chose-kind-of-pizza {
+  padding-left: 45%;
+}
+.badge {
+  background-color:@menuColor;
+}
+.filters {
+  text-align: center;
+
+}
+.nav-pills {
+  li a{
+    color: @menuColor;
+  }
+  li.active a, li.active a:hover, li.active a:focus {
+    color: white;
+    background-color: @menuColor;
+  }
+  margin-bottom: 20px;
+}
+.image {
+  width: 10px;
+  height: 10px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  background: @mainColor;
+  opacity: 0.8;
+  width: 99px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+.to-buy{
+  background-color: @itemsColor;
+}
+.big-pizza{
+  text-align: center;
+}
+.small-pizza{
+  padding-top: 0px;
+padding-bottom:30px;
+  text-align: center;
+}
+.UAH{
+  padding-bottom: 10px;
+
+}
+.order-cost{
+  font-family: @text-desidn;
+}
+.to-buy{
+  font-family: @text-desidn;
+}
+  #order-reset{
+    font-family: @text-desidn;
+}
